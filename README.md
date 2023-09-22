@@ -1,4 +1,4 @@
-# The Ploopy Nano Trackball
+# The Ploopy Adept Trackball
 
 ![The Ploopy Adept Trackball](adept.jpg)
 
