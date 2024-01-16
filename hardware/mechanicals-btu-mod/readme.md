@@ -9,3 +9,5 @@ Also included is a step file, and a fusion 360 export (my CAD is all self taught
 The intended BTUs for v1 are [these veichu ones](https://www.aliexpress.com/item/1005003066404497.html) in 7.5 size.
 
 I am actively working on other versions for other BTU varieties and will aim to add these in the future.
+
+Please do not contact the core ploopy team for any issues with this mod, I can be reached through my github account linked above or on discord.
