@@ -10,7 +10,7 @@ What are you waiting for? Your new life awaits.
 
 ## QMK?!
 
-Kits bought from the [Ploopy store](https://ploopy.co/product-category/trackball/adept/) come with QMK and VIA preloaded. Check out the Wiki for instructions on how to load new firmware onto your device. (It's super easy!)
+Kits bought from the [Ploopy store](https://ploopy.co/product-category/trackball/adept/) come with QMK and VIA preloaded. [Check out the Wiki](https://github.com/ploopyco/adept-trackball/wiki) for instructions on how to load new firmware onto your device. (It's super easy!)
 
 The firmware hex file that ships with all Adepts is included in this repository as well, as `ploopyco_madromys_rev1_001_via.uf2`.
 
