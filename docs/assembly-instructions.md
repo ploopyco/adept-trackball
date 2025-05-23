@@ -181,9 +181,13 @@ Sometimes, the buttons on the Top need to be adjusted so that the distance betwe
 
 The buttons can be adjusted quite far without breaking, but still, **do this slowly**. Don't move the buttons too far at one time.
 
-[A video of how to adjust the Top when the Top is removed is available here.](https://imgur.com/2l5EsTi) This is the recommended route as it has the lowest possibility of damaging the Top.
+| <video controls><source src="../img/1.mp4" type="video/mp4"></video> |
+|:--:|
+| *Video 9: How to adjust the Top when the Top is removed. This is the recommended route as it has the lowest possibility of damaging the Top.* |
 
-[A video of how to adjust the Top when the Top is installed is available here.](https://imgur.com/OqEk2X5) This is only recommended if you have the capability of reprinting your own Top in case you break this one.
+| <video controls><source src="../img/2.mp4" type="video/mp4"></video> |
+|:--:|
+| *Video 9: How to adjust the Top when the Top is installed. This is only recommended if you have the capability of reprinting your own Top in case you break this one.* |
 
 ### I've plugged in the Adept, but none of the buttons are working, and the cursor isn't working. What's wrong?
 
