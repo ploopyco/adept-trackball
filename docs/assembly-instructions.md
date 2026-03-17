@@ -52,6 +52,12 @@ The PMW-3360 chip will come in a small piece of foam. Go ahead and remove it now
 
 ### Step 4: Solder PMW-3360 sensor to printed circuit board
 
+<div style="background-color: #ffb3b3; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">
+    🚨 <strong>Reminder:</strong> Ploopy's limited warranty does <strong>NOT</strong> cover damage due to incorrect soldering. If you don't feel confident, practice first, or ask someone who is experienced.
+  </span>
+</div>
+
 ![sensor seated in adept board](https://lh3.googleusercontent.com/pw/ADCreHehVrdHsWHFfOsmIu8JmE-wh28OtYddyUY4Ai_P1kpBq-sYIE9LTbAQ48mjD3TmDaXAyEmRp7H81yJ4qvvMoYZn0PnEd8vFci3_DdcdyLwYdTi8HWACSfjMvTryCu3uCKchpxT_am9Lpb4Eu1ZP0KC_=w1038-h775-s-no?authuser=0)
 
 Before soldering:
