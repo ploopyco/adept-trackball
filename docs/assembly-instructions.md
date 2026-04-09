@@ -1,218 +1,318 @@
-# Ploopy Kit Assembly Instructions
+<style>
+  body {
+    font-size: 50px;
+  }
+</style>
 
-## BEFORE YOU DO ANYTHING, READ THIS FIRST.
+## Step 1: Prepare necessary tools
 
-**Do not flash new firmware until you've verified that the electronics are all working.**
+<p align="center">
+  <img src="../assets/1.png" alt="Description" width="400">
+</p>
 
-That means, finish building the trackball, plug it in, use the stock firmware for about five minutes. Verify that the cursor is moving, and all the buttons are working.
-
-Once you've verified that it all works, you're good to go flashing new firmware.
-
-## Main Instructions
-
-![all kit parts](https://lh3.googleusercontent.com/pw/ADCreHfFOKGiX1egjs6ol2iNQnJ4jNDAxH1bfMqkoxHRl5mpLs3ZLxKLjKJR8xbkDLxCADVBUiWzJF8CwyH74PnvwaB3b2ErXDpoPGF3qR4dHEotAmtf3Ir6Wsf7FSntQSoPxZtsEllr6KtwjVg7xnZj4qsv=w1035-h775-s-no?authuser=0)
-
-In this section, you'll go over how to build an Adept Trackball from the official Ploopy Adept Trackball kit.
-
-Note that some of these pictures were taken at different times, so they may show a bit of inconsistency in between steps.
-
-### Step 1: Get the necessary tools
-
-![all tools](https://lh3.googleusercontent.com/pw/ACtC-3eKUqi_BjdcoJRlIiCtS0rxfiG9A3lCX8538aebNqQPccqBAioWTrmFEinRKAGVO0FNtpuwiR8vW0Ux6MPnLEe0OVpoppkdxLsX9M9iJcIh5tRhFcuQjpzP84skAn2yffFP1vID-sIKFg-YZX0lwRPI=s801-no?authuser=0)
-
-- A #1 Phillips head screwdriver (or similar; you're looking for a small-ish screwdriver here)
+- A #1 Phillips head screwdriver
 - Soldering iron
 - Solder
+- Optional: tweezers
+- Needle-nose pliers 
 
-A pair of tweezers and needle-nose pliers may also be helpful during this process.
+<div style="background-color: #fcf003; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">💡</span>
+  <div>
+    <strong>Tip:</strong> A similar smallish Phillips head screwdriver could work.
+  </div>
+</div>
 
-### Step 2: Break any leftover tabs off the PCB
+## Step 2: Break off possible leftover tabs off the PCB
+- There are up to six possible small tabs along the edge of the PCB as shown in the picture.
+- Holding the PCB as pictured, gently break off any tabs using a pair of pliers.
 
-![enter image description here](https://lh3.googleusercontent.com/pw/AP1GczMsL-8MYM2KZ_-CyFdPpuzJyChnqaTZTjUCXkvmCUbI-MlrQftVXLhMHw7z8NgtPAE_YkE4VXTxeYjPIQeWt4ItnOTl6M7VZhQLCLEnPEx4IiyrdXdXoKP7iSFYm4F_-cFrwUsvGJqLp8INjS8uZYS3=w1263-h947-s-no?authuser=0)
+<div style="background-color: #ffb3b3; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">🚨</span>
+  <div>
+    <strong>Warning:</strong> These tabs should come off relatively easily, don’t use excessive force, it probably means you are doing it wrong!
+  </div>
+</div>
+  
+<p align="center">
+  <img src="../assets/2_new.jpg" alt="Description" width="800">
+</p>
 
-- In the photo, a "tab" is being pulled by the pliers.
-- There may be up to six small tabs on the outside of the PCB.
-- Use a set of pliers to gently break the tabs off.
+## Step 3: Prepare parts for PCB soldering
 
-
-### Step 3: Prepare the PCB for soldering
-
-![enter image description here](https://lh3.googleusercontent.com/pw/AM-JKLW3h7TgW4pMeGjDc47PAWe1dF5GIvrqyLd6GkpU1HptAZluDdueUx8eZc4HpjNfvqAw-LjtBdi1GusgHrs4T-LBn9ZUElRqkYt3IHkLp0g9ObWjxKJO6SQ4DoEwqXNIK3G3FEOwIbTmZI0ATf30cUaD=w788-h585-no?authuser=0)
-
-Prepare the following components:
+Prepare the following components as pictured below:
 
 - Printed circuit board
 - PMW-3360 chip
-- PMW-3360 optic
 
-The PMW-3360 chip will come in a small piece of foam. Go ahead and remove it now.
-
-
-### ***STOP! Read the next step fully before continuing.***
-
-### Step 4: Solder PMW-3360 sensor to printed circuit board
-
-<div style="background-color: #ffb3b3; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
-  <span style="font-size: 20px; margin-right: 10px;">
-    🚨 <strong>Reminder:</strong> Ploopy's limited warranty does <strong>NOT</strong> cover damage due to incorrect soldering. If you don't feel confident, practice first, or ask someone who is experienced.
-  </span>
+<div style="background-color: #fcf003; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">💡</span>
+  <div>
+    <strong>Tip:</strong> The PMW-3360 chip will come in a small piece of foam. Go ahead and remove it now.
+  </div>
 </div>
 
-![sensor seated in adept board](https://lh3.googleusercontent.com/pw/ADCreHehVrdHsWHFfOsmIu8JmE-wh28OtYddyUY4Ai_P1kpBq-sYIE9LTbAQ48mjD3TmDaXAyEmRp7H81yJ4qvvMoYZn0PnEd8vFci3_DdcdyLwYdTi8HWACSfjMvTryCu3uCKchpxT_am9Lpb4Eu1ZP0KC_=w1038-h775-s-no?authuser=0)
+<p align="center">
+  <img src="../assets/3.jpg" alt="Description" width="600">
+</p>
 
-Before soldering:
+## Step 4: Solder PMW-3360 sensor to printed circuit board
+
+- Place the sensor onto the circuit board, ensuring the orientation is correct.
 
-- **MAKE 👏 SURE 👏 THAT 👏 THE 👏 PMW-3360 👏 IS 👏 ORIENTED 👏 CORRECTLY 👏 BEFORE 👏 YOU 👏 SOLDER 👏 IT!** This is a really easy step to mess up, so *CHECK IT TWICE!*
-- See the photo for clarification. Note the orientation of the text on the chip, as well as the pattern of dots on the chip. Also note the "1" on the printed circuit board.
-- One warning to double-check the sensor orientation isn't sufficient. Stop what you're doing, right now, and check it. **Seriously.** Be kind to your future self, and save yourself a headache.
-- Once you are absolutely sure that you have oriented the PMW-3360 correctly, solder it down.
-- The sensor must be flat down as far as it can possibly slide into the holes before soldering. Don't let it "float" while you're soldering the first pin down.
+<div style="background-color: #ffb3b3; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">🚨</span>
+  <div>
+    <strong>Warning:</strong> Use the cues presented in the following images to ensure the sensor is oriented correctly.
+  </div>
+</div>
 
-### Step 5: Remove the tab of kapton tape on the PMW-3360
+<p align="center">
+  <img src="../assets/4_new.jpg" alt="Description" width="800">
+</p>
+
+<div style="background-color: #ffb3b3; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">🚨</span>
+  <div>
+    <strong>Warning:</strong> The sensor must be flat down as far as it can possibly slide into the holes before soldering.
+  </div>
+</div>
+
+<p align="center">
+  <img src="../assets/4c_new.jpg" alt="Description" width="600">
+</p>
+
+## Step 5: Remove the tab of kapton tape on the PMW-3360 chip
+
+<div style="background-color: #fcf003; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">💡</span>
+  <div>
+    <strong>Tip:</strong> Try to do this step in a dust-free environment.
+  </div>
+</div>
 
-![kapton being removed from sensor](https://lh3.googleusercontent.com/pw/AIL4fc-8G-mQvbF_1cp2btwVxMrvh1B0pSy-Fc7e26FWPlJmn4vczL_8a6-QBU6ESES4qihVTvNiYm30sgrUXQclvKBQ9LEvCI0od_DjCHe0KzN82qG61yzgV2os908o8oz7CyDKFB-lFjRNfQUs2mo5zutR=w1033-h775-s-no?authuser=0)
+- There are two small tabs of orange tape covering the sensor's main holes. Remove them now.
 
-- There are two small tabs of orange tape covering the sensors main holes. Remove them now.
-- Try to do this in a dust-free environment.
-- Check your solder joints during this step to ensure that they are good.
+<p align="center">
+  <img src="../assets/5.jpg" alt="Description" width="800">
+</p>
 
-### Step 6: Attach the optic to the PMW-3360
+<div style="background-color: #cce5ff; color: #004085; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">ℹ️</span>
+  <div>
+    <strong>Info:</strong> Check your solder joints during this step to ensure that they are good. To know if they are good, consult the 
+    <a href="https://staging.help.ploopy.co/?docs=ive-soldered-my-kit-together-but-the-parts-i-soldered-dont-work-2" style="color: #004085; font-weight: bold; text-decoration: underline;">soldering FAQ</a>.
+  </div>
+</div>
 
-![optic attached](https://lh3.googleusercontent.com/pw/AIL4fc8euxSp-rxmJew4_Bqsws26bLEEAvLh3dyAlh4n9AWyYdr_heKJ1EHEcAhnnGyrQ1pZIU575Sd6CubS9Ri5Yshdc8IwCY3NUXgnC3_Zsu--UJ0ttD3M0VN5j3fRkgCXmNdmXNahQhM1U5Cb0XLNJAIa=w1033-h775-s-no?authuser=0)
+## Step 6: Attach the PMW-3360 optic to the PMW-3360 chip
 
-- Orient the optic correctly before insertion. It should **NOT** require any force to insert fully; if it does, remove it and check the orientation before trying again.
+- Orient the optic as shown in the image before insertion.
 
-### Step 7: Place the PCB into the Base
+<div style="background-color: #ffb3b3; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">🚨</span>
+  <div>
+    <strong>Warning:</strong> It should NOT require any force to insert fully; if it does, remove it and check the orientation before trying again.
+  </div>
+</div>
 
-![pcb in base](https://lh3.googleusercontent.com/pw/ADCreHe3900iYyddGPdg8QBqBLne3iffu9g2zxRoJel0syzkDh40PlmCGBhwWDQffKe95EDzeMe1By_y34D4w6RH6OJqY03_oabp4YgkLbw0Rzo4rBqAMR0TR4eryGyk5Kb11soTpq02rol7bwMiqeknpIV_=w1033-h775-s-no?authuser=0)
+<p align="center">
+  <img src="../assets/6_new.jpg" alt="Description" width="800">
+</p>
 
-### Step 8: Place the Sensor Cap on the PCB
+## Step 7: Place the PCB into the Base
 
-![sensor cap on optic](https://lh3.googleusercontent.com/pw/ADCreHeyaHidkp5tdhs2B2VSzjPZuK7h13U4rjR06DhwL8oOTjdEYHHFmu_qX7fBg9xMmduOM__pDwmDrxgfpqFsL7_snviY2XoWrA5SKRp4ux_bYwSGHsbyYtKis1TgWR0vKfPwiAfALeEEB-wjoNNsWVww=w1033-h775-s-no?authuser=0)
+- This should be straightforward, the PCB should fit exactly as shown.
 
-- The Sensor Cap doesn't snap onto the PMW-3360 optic. It "floats" on top of the optic for now. Once fully assembled, the Sensor Cap will be securely held down.
-- The position of the Sensor Cap doesn't precisely matter for the moment. Just try to get it roughly centered on the optic.
+<p align="center">
+  <img src="../assets/7.jpg" alt="Description" width="800">
+</p>
 
-### Step 9: Place the Top onto the Base
+## Step 8: Place the Sensor Cap on the PCB
 
-![top placed](https://lh3.googleusercontent.com/pw/AIL4fc_EQRIgonn-6qqwASgfX-E2CL5mis4GArH4WeHOLyyr2cJFlKm2lOMHlquGJQa8TvKmSfYe7aULWrn_fhZ43kTjftY9IfzSpCQt6MBi0ku9eH_pyBy-SwqUeKvpBJspaf2zA5mBB_ChBrbo_lr0RWKQ=w1033-h775-s-no?authuser=0)
+- Place the sensor cap on the PCB as shown in the image.
 
-- If necessary, adjust the position of the Sensor Cap as you're lowering the Top onto the Base.
+<div style="background-color: #fcf003; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">💡</span>
+  <div>
+    <strong>Tip:</strong> The Sensor Cap doesn't snap onto the PMW-3360 optic. It "floats" on top of the optic for now. Once fully assembled, the Sensor Cap will be securely held down.
+  </div>
+</div>
 
-### Step 10: Screw the Base into the Top
+<p align="center">
+  <img src="../assets/8.jpg" alt="Description" width="800">
+</p>
 
-![screws being drive into bottom](https://lh3.googleusercontent.com/pw/AIL4fc9Z5X1b7N9FT5oQeCQG5j5ItdGgg55qI5fjF87RnUjwaUGx_Ijgw6UlwNRC46gmqmnXdT26Cm-n6W-Z1Va8gYGIWzH1oOKrTD7P0ebvwt_lhH6QehKJkve643MZQobipO6AMt6u0rU1-7u2h-URjyoj=w1033-h775-s-no?authuser=0)
+## Step 9: Place the Top Piece onto the Base Piece
 
-- Go slowly as you drive screws during this step. When you feel significant resistance, **stop**.
+- Place the top onto the base.
 
-### Step 11: Prepare bearing press jig
+<p align="center">
+  <img src="../assets/9.jpg" alt="Description" width="800">
+</p>
 
-![](https://lh3.googleusercontent.com/pw/ACtC-3fcHifwU-lceEx1MLBdimwCm6YiIihikVyH3o47rS98Kh0aqGivpEWOL1eh6f2ibLkXw1d3fMRY59Sdsr3q6CPVXu1lPp6L0VYicMQjhEkzmbeZhL7hxrkcK6QJq7s_bKvyd2hAVz7fV529o8yORZbG=s969-no?authuser=0)
+<div style="background-color: #fcf003; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">💡</span>
+  <div>
+    <strong>Tip:</strong> If necessary, adjust the position of the Sensor Cap as you're lowering the Top onto the Base. It should end up looking like the image.
+  </div>
+</div>
 
-Prepare the following components:
+<p align="center">
+  <img src="../assets/9b.jpg" alt="Description" width="500">
+</p>
 
-- Bearing press jig
-- 3x roller bearing
-- 3x roller bearing dowel
+## Step 10: Screw the Base into the Top
 
-### Step 12: Insert roller bearing and roller bearing dowel into bearing
+<div style="background-color: #fcf003; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">💡</span>
+  <div>
+    <strong>Tip:</strong> You are safe to flip the frame upside down for this and future steps.
+  </div>
+</div>
 
-![press jig ](https://lh3.googleusercontent.com/pw/ACtC-3fRT6fulgpn47hSmfqh7kCG2iNbNzv_x9CD6Zf1nxVRncDQu5ytk1cDuZFMIYnj_wwY0HwsVe3UukCv6-x9x2GiOXHWvwtCeBj57Src-WgTk7csrvDrtiUCFy6ahzs6LfD9mK1mJ34lM7AamE3TEte2=s969-no?authuser=0)
+- Slowly drive the screws into the four holes in the top until you feel resistance.
 
-### Step 13: Press the bearing press jig together
+<div style="background-color: #ffb3b3; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">🚨</span>
+  <div>
+    <strong>Warning:</strong> Only screw until the frame feels firmly together. If you use too much force, you may break the frame.
+  </div>
+</div>
 
-![](https://lh3.googleusercontent.com/pw/ACtC-3d8_AnAnkjIbIy7z6Q8JS7EZJ8dG0vs0KRHT8hP5Rz-Dxz9qb992tmbLi10SfHgHt7-vNjDeKbpwyhoTiD8J3Tb9qNSTWhlCfKPTFQv-HdQ2HCkcNNwnsLWk5u_mlPgqrjlei9TVceGlfCAmZrfqRcK=s969-no?authuser=0)
+<p align="center">
+  <img src="../assets/10.jpg" alt="Description" width="800">
+</p>
 
-This may require a surprising amount of force. Try your best not to bend the roller bearing dowel, but if you do, there should be spares with your kit parts.
+## Step 11: Prepare Roller Bearing Parts
 
-### Step 14: Remove bearing from bearing press jig and repeat
+- 3x Roller Bearing
+- 3x Roller Bearing Dowel
+- Bearing Press Jig (Taller Half + Shorter Half)
 
-![](https://lh3.googleusercontent.com/tDT3xaB105S_s87Qs_729WFTWj3YVGqZBMyM6iDCvnXjb93gdMC2k8QVjuNm4xRo3OSPbs94wE8G5tSKz1lqxZZ5-lh6UbCnuZe-MK3Kw9_pmYj7oO-aeVz_lP5aVHtzvQfxXNqiQHqFckddRPZ7VWgzCURwY6DpRRASEitkvFmKcn7hbTt7kUHNXZXzxy1Q85U6vun5VZ54P84xDU0AASsqPj1Sfo1P1E83_K9xhSASliFd4qUPL03XtejmRMNGbASAVO8zUBVn6qWFMMgayJRpsnYq225TEktqEpgv4raeZYyNVhL2YepfmQtKoReyFExeRNz5oGlZ_1_iae8KhKnmK5ZHMyTMw_sNZxUyghzEZFbSMm4WZmmP96-XFdSv8IPMjv1CdUFhDpP6b1d8i_jpPMLMG0aFzMoRkyX_rh_DVdpG-CoM8lZlMsRwT2vy5H_Mrju9At7a2Vn-8OcLs9hELAUmqgOrlJqwhCLgJIHXSz_XuLG6RlBsJFUvVIGreR_8YOS84lU0DatIqockhYvJ9leT-xbO6w4AAdo6da0DMW818BTXIWRd3CkjlZjSsOjymYaTJSu6U-doglnrrqr51DS-OgIfZyq91sJucVUwqT3Ow5oQNEz3bMi55IMBPmDCaZGBjtPXv2GHKi1JS3S3DLBxBqjAz4_rcqw8JLPRsrGSZZjimy4oNaNOUklme6bmEeaBL7sQ3AkBsnBNFKKWD2uyHxDNFZuQxT66FmiCf3M=w1454-h969-no)
+<p align="center">
+  <img src="../assets/11_new.jpg" alt="Description" width="800">
+</p>
 
-At the end, all of your bearings should look like this.
+## Step 12: Insert Roller Bearing and Bearing Dowel into Bearing Press Jig
 
-### Step 15: Insert roller bearings into the Top
+- Insert the bearing into the taller half of the bearing press jig.
 
-![](https://lh3.googleusercontent.com/XnP0djOr1WwefBp4rDly1YdNyW2AQhd-coKtscZKv4xwLYQmJh_O-Yihrh0kl4qVAVJzwqvUfclbO-AARVt4Oj-sKAitXEjXrTa9eQkSTTAPYWJnLc7gkS8j-tN1GtmaKbSNINXwkJ6ZZMrajByS7vWSRSjNuC8hHUd_JKAmnY9irJVoUA94iEWYrB4KBVxBaU0esIEXEof3rUggpv_uvVDYDBlDYpmaFRC0tnzvHJRxh-NW0WDAP2H9yjmCHNOmo04t-DF5EK2o4DYGlYeZ-amr1TsrGEmFdWtrc61bnUenfm0Ulv03gWHOZauP4YzcY2UQReYbF-dNYhlvbFwStHIYuEG4NqCsLKivuc42vBo89eCMaUe34BptrLVSyakLd0pp4gIjZql1-fCpfeGk4Gql2eRTs9QVwKzJsBwZdpzvZLcKFdvOpXAkSpD-GL50yMmYE74fzZa5wMb_8JUfeaLCtKLGSdMXIuDj7CgYarGZHs0hIhD-ACPOcFSUXrhXLrK4qHVwiHV3OXJ99RrEamD6_zqgOKKweBi3jInbRoLBHl9HRzRL9QureF2lYC0jbQuoM6jrkkHSKEcjGtVyIJyOfErP4hwQwMo2PbWC-OmimmXa6t3s9LkQxW-vgFXw4GfPPEDDSHsh99zX4VRnrvDOXaqatlAfMJVqVTLfOBUb8dkteuhFbpbdQH0xvRvradtn3gbNgk3ScUEUsCPk_RUCHkUBFVKLJzOjqXzPIXoa03s=w1454-h969-no)
+<p align="center">
+  <img src="../assets/11.jpg" alt="Description" width="900">
+</p>
 
-- Ensure that the bearings are pressed all the way into the case. If the bearings aren't seated all the way, there's a good chance that the ball will become badly scratched.
-- Needle nose pliers or some similar tool can be used to ensure that the bearing is fully seated.
+- Insert dowel into the shorter half of the bearing press jig.
 
-### Step 16: Prepare the Friction Pads
+<p align="center">
+  <img src="../assets/11b.jpg" alt="Description" width="900">
+</p>
 
-![body and friction pads](https://lh3.googleusercontent.com/pw/AIL4fc-ubZ-emcpyggq24CCyxfvzE6jKMQSZNqjEauKzWoBAORulF75JEtY2P1fVX129CNmYUr__yCw6qi1IFuqdWPJJ50RiYD_F4nk2iav3m2EWq4Jetg_4y8wktTatnZUBbUZ4C6wOpHelmsSFh7Pg7Mo5=w1033-h775-s-no?authuser=0)
+## Step 13: Press the Bearing Jig Together
 
-Prepare the following components:
+- Press the bearing press jig together.
 
-- Adept body
-- 4x Friction Pads
+<div style="background-color: #ffb3b3; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">🚨</span>
+  <div>
+    <strong>Warning:</strong> This may require a surprising amount of force; try your best not to bend the roller bearing dowel. If you do, there are spares included in the assembly kit.
+  </div>
+</div>
 
-### Step 17: Place Friction Pads on Base
+<p align="center">
+  <img src="../assets/11c.jpg" alt="Description" width="900">
+</p>
 
-![friction pads installed](https://lh3.googleusercontent.com/pw/AIL4fc9at4wIWQH0lnWBbWhNOsybppvn7eG98WloCl7TqUNH5I_tQ-bprm9cT5iy_3n5FuFSKCx0mAm_nYquFBrcfDctgTbWvzJyrwUsR7CSmoBpacKS9PgiEKsK6sOomAz8rBoMmOIoRpDd91DOEmsc6KsY=w1033-h775-s-no?authuser=0)
+## Step 14: Remove roller bearing from bearing press jig and repeat
 
-- Do your best not to cover the screw holes with the friction pads, as this will make opening the case more difficult in the future.
+- Remove the the roller bearing from the press jig.
+- Repeat 3 times to end with 3 roller bearings.
 
-### Step 18: Insert the ball
+<p align="center">
+  <img src="../assets/14_new.jpg" alt="Description" width="800">
+</p>
 
-![ball in case](https://lh3.googleusercontent.com/pw/AIL4fc_v3rGcrEshrRvIKcmJqjYXqJjULNFlgx8v1j9rOPgi9hJOhmdpvj3_65gIX0UzgcjRaRFv46Wuc2omH5nMzAh9BuDEkIOxerbp7Af1ox5CEu4AnCdRa1AiJhL-20ehFOjU61fuEXblNM5kReyks41h=w1033-h775-s-no?authuser=0)
+## Step 15: Insert roller bearings into the Top Piece
 
-### Step 19: Peel and stick the logo to the Top
+- Insert the roller bearings into the 3 holes in the top of the frame.
+- Ensure the bearings are pressed all the way into the case.
 
-![logo](https://lh3.googleusercontent.com/pw/ADCreHeqkMCpaURFHVMtVUhNOK22PPSPYF6FISdpbE-yzzh9Q6jIFwiIiZZv0gwiuAgsxB0uN9-9JAVcW3NefMnCiTGM7qkrOEKH_z41lAyyqdQlGFyG4BelpG6Vhp7nTvnrsegWuTRYxZRZtTkbxnlJouYU=w1033-h775-s-no?authuser=0)
+<div style="background-color: #fcf003; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">💡</span>
+  <div>
+    <strong>Tip:</strong> Needle nose pliers or some similar tool can be used to ensure that the bearing is fully seated.
+  </div>
+</div>
 
-This isn't strictly necessary, but we think it looks nice.
+<p align="center">
+  <img src="../assets/15.jpg" alt="Description" width="600">
+</p>
 
-### Step 20: Verify that the Ploopy Adept Trackball is working correctly
+<div style="background-color: #ffb3b3; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">🚨</span>
+  <div>
+    <strong>Warning:</strong> If the bearings aren't seated all the way, there's a good chance that the ball will become badly scratched.
+  </div>
+</div>
 
-Plug the trackball into your computer. If you move the ball, it should move the cursor.
+## Step 16: Place Friction Pads on Base
 
-### Step 21: Spin the ball to break in the bearings
+- Flip the adept frame upside down.
+- Place the friction pads on each corner of the frame.
 
-The bearings are a bit scratchy when they're new. To prevent them from jumping around during initial use, spin the ball with some Latin dance vigour for about three minutes. That should be enough to break them in.
+<div style="background-color: #fcf003; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">💡</span>
+  <div>
+    <strong>Tip:</strong> Do your best not to cover the screw holes with the friction pads, as this will make opening the case more difficult in the future.
+  </div>
+</div>
 
-The bearings will take about a week to become fully broken-in.
+<p align="center">
+  <img src="../assets/16 17.jpg" alt="Description" width="600">
+</p>
 
-### Step 22: All done!
+## Step 17: Insert the ball
 
-Congrats, you finished building the Ploopy Adept Trackball!
+- Insert the track ball into the hole in the middle of the adept frame.
 
-It's done! Love it, use it, but don't you dare abuse it!
+<p align="center">
+  <img src="../assets/18.jpg" alt="Description" width="800">
+</p>
 
-## FAQ
+## Step 18: Peel and stick the logo to the Top
 
-### Some buttons seem "sticky", or are too low, or are permanently clicking. What do I do?
+- Insert the logo in the indent on the top of the frame.
 
-Sometimes, the buttons on the Top need to be adjusted so that the distance between the button and the switch on the PCB are correct. You can do this either when the Top is installed or when it's removed.
+<p align="center">
+  <img src="../assets/19.jpg" alt="Description" width="800">
+</p>
 
-The buttons can be adjusted quite far without breaking, but still, **do this slowly**. Don't move the buttons too far at one time.
+## Step 19: All done!
 
-| <video controls><source src="../img/1.mp4" type="video/mp4"></video> |
-|:--:|
-| *Video 9: How to adjust the Top when the Top is removed. This is the recommended route as it has the lowest possibility of damaging the Top.* |
+<p align="center">
+  <img src="../assets/21.jpg" alt="Description" width="800">
+</p>
 
-| <video controls><source src="../img/2.mp4" type="video/mp4"></video> |
-|:--:|
-| *Video 9: How to adjust the Top when the Top is installed. This is only recommended if you have the capability of reprinting your own Top in case you break this one.* |
+## Post Steps:
 
-### I've plugged in the Adept, but none of the buttons are working, and the cursor isn't working. What's wrong?
+### Spin the ball to break in the bearings
+- Spin the ball around for around 3 minutes to break them initially before any use
+- The bearings may take around a week to become fully broken-in/smooth
 
-You have a bad cable.
+### Verify the Ploopy Adept Trackball is working correctly
+- Plug the adept trackball mouse into the computer using a USB-C cable
+- Move the ball around, it should move the cursor
 
-To expand: many USB-C cables only provide power, and their data wires aren't actually connected. If your computer seems to recognize that a device has been plugged in, but none of the buttons are working and the cursor isn't moving, the problem is almost certainly the cable.
+### Check out Post Build FAQ
+- [Post Build FAQ](https://help.ploopy.co/?docs=where-can-i-find-mods-for-my-ploopy-device)
+- Contains various information about things you can do after initial assembly!
 
-Try using the Adept with a cable that you've verified to work with another device. If that still doesn't solve the problem, send an email to contact@ploopy.co.
+<div style="background-color: #cce5ff; color: #004085; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
+  <span style="font-size: 20px; margin-right: 10px;">ℹ️</span>
+  <div>
+    <strong>Info:</strong> If the trackball is not working, consult our 
+    <a href="https://help.ploopy.co/checklist-v2/" style="color: #004085; font-weight: bold; text-decoration: underline;">troubleshooting guide</a> 
+    for further steps.
+  </div>
+</div>
 
-### One or more of the rollers seems to be badly stuck. What do I do?
-
-Take a look at this photo:
-
-![enter image description here](https://lh3.googleusercontent.com/pw/AP1GczOIJRNGNC-7HbVE7ZA2MPZsiG4hSKyhmbKv4XpsuvRAk2CiMboLVKeaCeTNRPddO8OWH-iRtkB52kxGKF8wMKMhpHLt3pNnDgPUvK6nHOR0b3FWXNsol70jPqbLwHmJueBo4890GN8FFai9e2QmOg4L=w1263-h947-s-no?authuser=0)
-
-Circled in red, you should notice a small piece of plastic sticking up into the well where the roller bearing sits. This piece of plastic can interrupt the regular movement of the roller bearing, causing it to seize up.
-
-Remove the bearing that's not rolling correctly from the Top and look for this piece of plastic. You should be able to remove it with a pair of tweezers, though you may have to scrape quite hard to get it off.
-
-### The buttons are all working, but the cursor isn't. What's going on?
-
-The sensor likely isn't soldered correctly. Double-check all of your solder connections, touch them up with some flux if you have it, and try again. If it still isn't working, send an email to contact@ploopy.co.
