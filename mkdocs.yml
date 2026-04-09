@@ -1,6 +1,10 @@
 site_name: Ploopy Adept Trackball
 site_url: https://ploopyco.github.io/adept-trackball
-theme: material
+theme:
+  name: material
+  features:
+    - toc.integrate
+    - navigation.tracking
 nav:
   - 'index.md'
   - 'assembly-instructions.md'
@@ -10,3 +14,9 @@ nav:
     - 'appendices/hardware.md'
     - 'appendices/programming.md'
   - 'license.md'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
