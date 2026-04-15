@@ -14,7 +14,7 @@
 - Soldering iron
 - Solder
 - Optional: tweezers
-- Needle-nose pliers 
+- Needle-nose pliers
 
 <div style="background-color: #fcf003; color: #333; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
   <span style="font-size: 20px; margin-right: 10px;">💡</span>
@@ -33,7 +33,7 @@
     <strong>Warning:</strong> These tabs should come off relatively easily, don’t use excessive force, it probably means you are doing it wrong!
   </div>
 </div>
-  
+
 <p align="center">
   <img src="../assets/2_new.jpg" alt="Description" width="800">
 </p>
@@ -100,8 +100,8 @@ Prepare the following components as pictured below:
 <div style="background-color: #cce5ff; color: #004085; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
   <span style="font-size: 20px; margin-right: 10px;">ℹ️</span>
   <div>
-    <strong>Info:</strong> Check your solder joints during this step to ensure that they are good. To know if they are good, consult the 
-    <a href="https://staging.help.ploopy.co/?docs=ive-soldered-my-kit-together-but-the-parts-i-soldered-dont-work-2" style="color: #004085; font-weight: bold; text-decoration: underline;">soldering FAQ</a>.
+    <strong>Info:</strong> Check your solder joints during this step to ensure that they are good. To know if they are good, consult the
+    <a href="https://help.ploopy.co/?docs=ive-soldered-my-kit-together-but-the-parts-i-soldered-dont-work-2" style="color: #004085; font-weight: bold; text-decoration: underline;">soldering FAQ</a>.
   </div>
 </div>
 
@@ -310,8 +310,8 @@ Prepare the following components as pictured below:
 <div style="background-color: #cce5ff; color: #004085; padding: 15px; border-radius: 5px; margin-bottom: 10px; display: flex; align-items: center;">
   <span style="font-size: 20px; margin-right: 10px;">ℹ️</span>
   <div>
-    <strong>Info:</strong> If the trackball is not working, consult our 
-    <a href="https://help.ploopy.co/checklist-v2/" style="color: #004085; font-weight: bold; text-decoration: underline;">troubleshooting guide</a> 
+    <strong>Info:</strong> If the trackball is not working, consult our
+    <a href="https://help.ploopy.co/checklist-v2/" style="color: #004085; font-weight: bold; text-decoration: underline;">troubleshooting guide</a>
     for further steps.
   </div>
 </div>
